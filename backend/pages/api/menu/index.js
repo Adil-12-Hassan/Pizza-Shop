@@ -1,5 +1,5 @@
-import connectDB from '../../../lib/db';
-import MenuItem from '../../../lib/models/MenuItem';
+import connectDB from '../../lib/db';
+import MenuItem from '../../lib/models/MenuItem';
 
 export default async function handler(req, res) {
     await connectDB();

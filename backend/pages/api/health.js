@@ -3,7 +3,7 @@
  * Used to verify the API is running and database is connected
  */
 
-import connectDB from '../../../lib/db';
+import connectDB from '../../lib/db';
 
 export default async function handler(req, res) {
     if (req.method !== 'GET') {

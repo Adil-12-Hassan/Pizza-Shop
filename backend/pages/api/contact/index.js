@@ -1,6 +1,6 @@
-import connectDB from '../../../lib/db';
-import Contact from '../../../lib/models/Contact';
-import { validateEmail, validatePhoneNumber, sanitizeInput } from '../../../utils/validation';
+import connectDB from '../../lib/db';
+import Contact from '../../lib/models/Contact';
+import { validateEmail, validatePhoneNumber, sanitizeInput } from '../../utils/validation';
 
 export default async function handler(req, res) {
     await connectDB();

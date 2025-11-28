@@ -1,5 +1,5 @@
-import connectDB from '../../../lib/db';
-import Order from '../../../lib/models/Order';
+import connectDB from '../../lib/db';
+import Order from '../../lib/models/Order';
 import mongoose from 'mongoose';
 
 export default async function handler(req, res) {
